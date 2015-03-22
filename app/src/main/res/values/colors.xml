@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_theme_color">#ff325aaa</color>
+    <color name="button">#ff325aaa</color>
+    <color name="pressed_button">#ff3e6ed0</color>
+    <color name="focused_button">#ff3661b8</color>
+    <color name="text_color">#ffffffff</color>
+    <color name="hint_text_color">#ff325aaa</color>
+    <color name="button_text_color">#ffffffff</color>
+    <color name="background_light">#ff325aaa</color>
+    <color name="background_dark">#ff103985</color>
+    <color name="gray_tint">#50000000</color>
+</resources>

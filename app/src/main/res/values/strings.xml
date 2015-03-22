@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Book Log RP</string>
+
+    <string name="placeholder_text">Placeholder</string>
+    <string name="book_icon_cont_desc">Book Icon</string>
+
+    <string name="title_activity_add_book">Add A Book</string>
+    <string name="title_activity_book_details">Book Details</string>
+    <string name="title_activity_search">Search in Book Log RP</string>
+
+    <string name="save">SAVE</string>
+    <string name="undo">UNDO</string>
+    <string name="enter_title_hint">Enter Title</string>
+    <string name="enter_author_hint">Enter Author</string>
+    <string name="enter_summary_hint">Enter Summary or Comments Here</string>
+
+
+    <string name="read">Read</string>
+    <string name="not_read">Unread</string>
+    <string name="all">All</string>
+    <string name="menu_add_book">Add a Book</string>
+    <string name="menu_search">Search for a Book</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="search_button_cont_desc">Search Button</string>
+    <string name="search_edittext_hint">Enter Title or Author</string>
+    <string name="about">About</string>
+    <string name="menu_add_book_isbn">Look Up ISBN Online</string>
+    <string name="isbn_hint">Enter a 10 or 13 digit ISBN here</string>
+    <string name="clear_button_label">Clear</string>
+    <string name="title_label">Title:</string>
+    <string name="author_label">Author:</string>
+    <string name="summary_label">Summary:</string>
+    <string name="rating_label">Rating:</string>
+    <string name="cover_photo_cont_desc">Book Cover Photo</string>
+</resources>

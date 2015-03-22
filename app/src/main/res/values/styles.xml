@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/app_theme_color</item>
+        <item name="colorAccent">@color/hint_text_color</item>
+    </style>
+
+    <style name="AuthButton" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="AuthTextView">
+        <item name="android:paddingLeft">@dimen/margin_small</item>
+        <item name="android:paddingRight">@dimen/margin_large</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="AuthEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="bookRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/book_ratingbar_full</item>
+        <item name="android:maxHeight">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="bookRatingBarSmall" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/book_ratingbar_small</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:minHeight">16dp</item>
+    </style>
+
+    <style name="AuthRadioButton">
+        <item name="android:button">@drawable/custom_radio_button</item>
+    </style>
+
+</resources>

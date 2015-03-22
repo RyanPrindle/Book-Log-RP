@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.prindle.a.r.bookdatabase.activities.SearchBookActivity"
+                android:background="@android:color/black"
+                android:id="@+id/searchRelativeLayout">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="5"
+        android:background="@color/background_dark"
+        android:elevation="5dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/searchEditText"
+            android:hint="@string/search_edittext_hint"
+            style="@style/AuthEditText"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_large"
+            android:imeOptions="actionSearch"
+            android:background="@android:color/black"
+            android:layout_margin="@dimen/margin_huge"
+            android:paddingStart="@dimen/margin_tiny"
+            android:paddingEnd="@dimen/margin_tiny"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchButton"
+            android:src="@drawable/ic_action_search"
+            android:contentDescription="@string/search_button_cont_desc"
+            style="@style/AuthButton"
+            android:layout_weight="1"
+            android:elevation="10dp"
+            android:layout_margin="@dimen/margin_huge"
+            android:background="@color/background_light"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchListView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout"
+        android:dividerHeight="2dp"
+        android:divider="@color/background_light"
+        android:drawSelectorOnTop="true"
+        android:elevation="0dp"
+        android:layout_margin="@dimen/margin_tiny"/>
+
+</RelativeLayout>

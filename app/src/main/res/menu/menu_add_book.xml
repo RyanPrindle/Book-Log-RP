@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.prindle.a.r.booklogrp.ui.AddBookActivity">
+    <item android:id="@+id/action_add_book_isbn"
+          android:title="@string/menu_add_book_isbn"
+          android:orderInCategory="100"
+          android:elevation="5dp"
+          app:showAsAction="never"/>
+</menu>
